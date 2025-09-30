@@ -29,10 +29,17 @@ namespace DesafioPOO.Models
             Console.WriteLine("Recebendo ligação...");
         }
 
+        public void ExibirInformacoes()
+        {
+            Console.WriteLine($"Este e o Aparelho Celular Modelo: {Modelo} com memoria de {Memoria}gb, de numero({Numero}) com o IMEI:{IMEI}");
+        }
+
         public abstract void InstalarAplicativo(string nomeApp);
 
         public abstract void ListarAplicativos();
 
         public abstract void DeletarAplicativo(string nomeApp);
+
+
     }
 }
