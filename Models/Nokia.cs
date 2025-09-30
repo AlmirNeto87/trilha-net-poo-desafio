@@ -13,7 +13,7 @@ namespace DesafioPOO.Models
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Aplicativo ${nomeApp} Instalado pela Market Place da Nokia");
+            Console.WriteLine($"Aplicativo {nomeApp} Instalado pela Market Place da Nokia");
         }
     }
 }
