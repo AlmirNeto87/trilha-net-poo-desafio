@@ -23,3 +23,6 @@ iphone.DeletarAplicativo("Play Store");
 
 nokia.DeletarAplicativo("Vivo");
 iphone.DeletarAplicativo("ICloud");
+
+nokia.ExibirInformacoes();
+iphone.ExibirInformacoes();
