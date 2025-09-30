@@ -8,6 +8,8 @@ namespace DesafioPOO.Models
         public string IMEI { get; set; }
         public int Memoria { get; set; }
 
+        public List<string> AplicativosInstalados { get; set; } = new List<string>();
+
         public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
@@ -28,5 +30,9 @@ namespace DesafioPOO.Models
         }
 
         public abstract void InstalarAplicativo(string nomeApp);
+
+        public abstract void ListarAplicativos();
+
+        public abstract void DeletarAplicativo(string nomeApp);
     }
 }

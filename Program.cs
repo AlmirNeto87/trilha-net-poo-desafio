@@ -13,3 +13,13 @@ iphone.ReceberLigacao();
 
 nokia.InstalarAplicativo("Vivo");
 iphone.InstalarAplicativo("ICloud");
+
+
+nokia.ListarAplicativos();
+iphone.ListarAplicativos();
+
+nokia.DeletarAplicativo("oi");
+iphone.DeletarAplicativo("Play Store");
+
+nokia.DeletarAplicativo("Vivo");
+iphone.DeletarAplicativo("ICloud");
